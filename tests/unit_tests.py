@@ -1,4 +1,5 @@
 import unittest
+from cashpro.reduction import *
 
 class MyTestCase(unittest.TestCase):
   def test_something(self):
