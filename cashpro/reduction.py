@@ -7,3 +7,5 @@ def calculerReduction(total, fidelite):
     return 10
   if 200<=total:
     return 15
+  else:
+    raise Exception("erreur calculerReduction")
