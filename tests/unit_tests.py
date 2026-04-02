@@ -6,8 +6,8 @@ class calculerReductionUnitTest(unittest.TestCase):
     self.assertEqual(calculerReduction(50, False), 0)
     self.assertEqual(calculerReduction(200, False), 0)
     self.assertEqual(calculerReduction(15, True), 0)
-    self.assertEqual(calculerReduction(32, True), 0)
-    self.assertEqual(calculerReduction(100, True), 0)
-    self.assertEqual(calculerReduction(201, True), 0)
+    self.assertEqual(calculerReduction(32, True), 5)
+    self.assertEqual(calculerReduction(100, True), 10)
+    self.assertEqual(calculerReduction(201, True), 15)
 if __name__ == '__main__':
   unittest.main()
