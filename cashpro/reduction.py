@@ -3,3 +3,5 @@ def calculerReduction(total, fidelite):
     return 0
   if 30<=total<100:
     return 5
+  if 100<=total<200:
+    return 10
