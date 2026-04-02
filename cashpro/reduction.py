@@ -1,2 +1,3 @@
 def calculerReduction(total, fidelite):
-  pass
+  if fidelite is False :
+    return 0
